@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 20px;
+    background-color: black;
+}
+.userCard{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 2rem;
+}
+button{
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+.allCards{
+    display: flex;
+    flex-wrap: wrap;
+}
