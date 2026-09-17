@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const Courses = () => {
   return (
       <h1 className="text-3xl underline font-bold absolute top-1/2 left-1/2 -translate-1/2">
-        Home Page
+        Courses Page
       </h1>
-  )
+  );
 }
 
-export default Home
+export default Courses
